@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>鼠标移入时，改变背景变色，移出时还原默认的背景色。</title>
+    <style>
+        .kuang1 {width:200px; height:120px; background:#000000; border:10px solid green;}
+        .kuang2 {width:200px;height:120px;background:#000000;border:10px solid green;}
+    </style>
+    <script>
+        function bian(a){
+            document.getElementById("broszhu1").style.background=a;
+        }
+        function bian2(a){
+            document.getElementById("broszhu2").style.background=a;
+        }
+    </script>
+</head>
+
+<body>
+<div id="broszhu1" onmouseover="bian('yellow')" onmouseout="bian('#000000')" class="kuang1"></div>
+<div id="broszhu2" onmouseover="bian2('red')" onmouseout="bian2('#000000')" class="kuang2"></div>
+</body>
+</html>
