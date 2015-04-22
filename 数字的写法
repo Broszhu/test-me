@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>数字的写法</title>
+    <script>
+    var x1=36.000;
+    var x2=36;
+    var y1=12e5;
+    var y2=12e-5;
+    var z1=x2-y1;
+    document.write(x1+"<br/>")
+    document.write(x2+"<br>")
+    document.write(x1+"</br>")
+    document.write(y1+"</p>")
+    document.write(y2+"<p/>")
+    document.write(z1+"<p>")
+    </script>
+</head>
+<body>
+</body>
+</html>
