@@ -6,6 +6,6 @@
 </head>
 <body>
 <h1>JS基础点击效果</h1>
-<input type="button" value="don't click me,不信你试试！" onclick="alert('不是告诉你不要点我了吗！你怎么还点啊！')" />
+<input type="button" value="don't click me,不信你试试！" onclick="alert('不是告诉你不要点我了吗！你怎么还点啊！人和人之间连最基本的信任都没有了吗？')" />
 </body>
 </html>
