@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+<script>
+     var broszhu1="1/on internet my name is broszhu"
+    var broszhu2='2/on internet my name is broszhu'
+    var broszhu3="3/on internet my name is 'broszhu'"
+    var broszhu4='4/on internet my name is "broszhu"'
+    document.write(broszhu1+"</p>")
+     document.write(broszhu2+"</p>")
+     document.write(broszhu3+"</p>")
+     document.write(broszhu4+"<br>")
+</script>
+</head>
+<body>
+</body>
+</html>
