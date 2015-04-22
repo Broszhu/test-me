@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>button控制样式</title>
+    <style>
+        #div1 {width:200px;height:200px;background:#000;}
+    </style>
+    <script>
+        function test(a,b)
+        {
+            document.getElementById("div1").style[a]=b;
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="width"onclick="test('width','500px')" />
+<input type="button" value="height"onclick="test('height','500px')" />
+<input type="button" value="yellow" onclick="test('background','#281640')" />
+<div id="div1"></div>
+</body>
