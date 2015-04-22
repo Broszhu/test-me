@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JS基础点击效果</title>
+</head>
+<body>
+<h1>JS基础点击效果</h1>
+<input type="button" value="don't click me,不信你试试！" onclick="alert('不是告诉你不要点我了吗！你怎么还点啊！')" />
+</body>
+</html>
