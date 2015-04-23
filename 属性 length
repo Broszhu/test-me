@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var broszhu="zhuanbang";
+        alert(broszhu.length)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
