@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<input id="btn1" type="button" value="niuniu">
+<script>
+    var ooxx=document.getElementById("btn1").onclick=function(){alert('弹窗')}
+</script>
+</body>
+</html>
