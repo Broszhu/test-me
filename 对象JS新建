@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    broszhu=new Object();
+    broszhu.xing="朱"
+    broszhu.ming="安邦"
+    broszhu.age="25"
+    broszhu.like="技术"
+    document.write("hello,热爱"+broszhu.like+"的"+broszhu.xing+broszhu.ming)
+    document.write("----测试//hello,热爱"+broszhu.like+"的"+broszhu.xing+"broszhu.ming")
+</script>
+</body>
+</html>
