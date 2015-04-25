@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var ooxx=["zzzz","hhhh","uuuu","aaaa"]
+    for (i=0;i<ooxx.length;i++)
+    {
+        document.write(ooxx[i]+"<br>")
+    }
+</script>
+</body>
+</html>
