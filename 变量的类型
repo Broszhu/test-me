@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var a=12
+        // alert(typeof a)  //number
+        a="22222324324fsdfsdfs"
+        //alert(typeof a) //string 字符串
+
+        a=true
+        //alert(typeof a)//boolean 布尔值
+
+        a= function () {
+            alert("wwww")
+        }
+        //alert(typeof a) //function
+
+        a=document
+        //alert(typeof  a) //object
+        var b
+        alert(typeof b) //undefined
+        //1.真的没定义，2、定了，但是没有东西
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
